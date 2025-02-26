@@ -13,6 +13,13 @@ public class CalculadoraTest01 {
 
         System.out.println("\nSubtração:");
         calc.subtraiNumero();
+
+
+        //métodosPt1
+        System.out.println("\nMultiplicacao:");
+        calc.multiplicaNumero(5,5);
+
+
     }
 
 }

@@ -10,4 +10,10 @@ public class Calculadora {
         System.out.println(20 - 10);
     }
 
+    ///métodosPt2
+    public void multiplicaNumero(int num1, int num2){
+        System.out.println(num1 * num2);
+    }
+
+
 }
