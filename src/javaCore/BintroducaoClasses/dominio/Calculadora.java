@@ -15,5 +15,25 @@ public class Calculadora {
         System.out.println(num1 * num2);
     }
 
+    //métodosPt3 - Retorno
+    public double divideNumeros(double num1, double num2){
+        if(num2 == 0){
+            return 0;
+        }
+
+        return num1/num2;
+    }
+
+    //métodosPt4 - Retorno
+    public void imprimeDivisaoDeDoisNumeros(double num1, double num2){
+        if(num2 == 0){
+            System.out.println("Não existe divisão por zero");
+            return;
+        }
+        System.out.println(num1 / num2);
+
+
+    }
+
 
 }

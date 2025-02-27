@@ -15,7 +15,7 @@ public class CalculadoraTest01 {
         calc.subtraiNumero();
 
 
-        //métodosPt1
+        //métodosPt2
         System.out.println("\nMultiplicacao:");
         calc.multiplicaNumero(5,5);
 
